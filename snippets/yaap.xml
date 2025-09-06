@@ -80,8 +80,8 @@
   <project path="external/zstd" name="external_zstd" remote="yaap" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="frameworks_av" remote="yaap" />
-  <project path="frameworks/base" name="frameworks_base" remote="yaap" />
+  <project path="frameworks/av" name="frameworks_av" remote="yaap" clone-depth="1" />
+  <project path="frameworks/base" name="frameworks_base" remote="yaap" clone-depth="1" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
@@ -167,7 +167,7 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="yaap" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="yaap" />
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="yaap" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" clone-depth="1" />
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
@@ -177,7 +177,7 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="android15-qpr2" />
   <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="yaap" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" clone-depth="1" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
@@ -189,7 +189,7 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="yaap" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
   <project path="packages/modules/Nfc" name="packages_modules_Nfc" remote="yaap" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" clone-depth="1" />
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="yaap" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
   <project path="packages/providers/BlockedNumberProvider" name="packages_providers_BlockedNumberProvider" remote="yaap" />
