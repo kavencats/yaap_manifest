@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<!-- vendor qcom perf -->
+	<project path="vendor/qcom/perf" name="Miku-UI/platform_vendor_qcom_perf" remote="github" revision="Blooming" />
+	
+	<!-- wayne device -->
+	<project path="device/xiaomi/wayne" name="kavencats/device_xiaomi_wayne" remote="github" revision="Blooming" />
+	<project path="kernel/xiaomi/wayne" name="kavencats/kernel_xiaomi_wayne" remote="github" revision="Blooming" clone-depth="1" />
+	<project path="vendor/xiaomi/wayne" name="kavencats/vendor_xiaomi_wayne" remote="github" revision="Blooming" />
+	
+	<!-- hardware/xiaomi -->
+	<project path="hardware/xiaomi" name="hardware_xiaomi" remote="yaap" />
+
+</manifest>

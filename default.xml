@@ -1057,6 +1057,7 @@
 
   <include name="snippets/remove.xml" />
   <include name="snippets/yaap.xml" />
+  <include name="snippets/wayne.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/clo.xml" />
   <include name="snippets/shallow.xml" />
