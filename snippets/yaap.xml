@@ -237,7 +237,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="yaap" />
   <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="sixteen" clone-depth="1" />
   <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="sixteen" clone-depth="1" />
-  <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="sixteen" />
+  <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="sixteen" clone-depth="1" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
   <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
